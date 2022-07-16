@@ -1,0 +1,29 @@
+{
+  "name": "uniswap-quoter",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "fork": "hardhat node --network hardhat --fork https://eth-mainnet.alchemyapi.io/v2/XLbyCEcaLhQ3x_ZaKBmZqNp8UGgNGX2F",
+    "test": "hardhat test --network hardhat",
+    "compile": "hardhat compile",
+    "deploy": "hardhat deploy --export-all frontend/src/abi/contracts.json",
+    "etherscan-verify": "hardhat etherscan-verify --api-key PSW8C433Q667DVEX5BCRMGNAH9FSGFZ7Q8"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@uniswap/v3-core": "^1.0.0",
+    "@uniswap/v3-periphery": "^1.2.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7",
+    "hardhat-contract-sizer": "^2.1.1",
+    "hardhat-deploy": "^0.9.4",
+    "hardhat-gas-reporter": "^1.0.4"
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"name": "vesta-trader",
+	"version": "1.0.0",
+	"description": "Vesta Trader is a modular system to allow Vesta protocol to trade collateral to VST.",
+	"main": ".eslintrc.js",
+	"license": "ISC",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@nomiclabs/hardhat-ethers": "^2.0.4",
+		"@nomiclabs/hardhat-etherscan": "^3.0.0",
+		"@nomiclabs/hardhat-waffle": "^2.0.2",
+		"@openzeppelin/hardhat-upgrades": "^1.16.1",
+		"@typechain/ethers-v5": "^9.0.0",
+		"@typechain/hardhat": "^4.0.0",
+		"@types/readline-sync": "^1.4.4",
+		"chai": "^4.3.4",
+		"dotenv": "^14.2.0",
+		"ethereum-waffle": "^3.4.0",
+		"ethers": "^5.5.3",
+		"hardhat": "^2.8.3",
+		"prettier": "^2.5.1",
+		"prettier-plugin-solidity": "^1.0.0-beta.19",
+		"readline-sync": "^1.4.10",
+		"ts-node": "^10.4.0",
+		"typechain": "^7.0.0",
+		"typescript": "^4.5.5"
+	},
+	"dependencies": {
+		"@openzeppelin/contracts": "^4.6.0",
+		"@openzeppelin/contracts-upgradeable": "^4.5.2",
+		"@rari-capital/solmate": "^6.2.0",
+		"@uniswap/v2-periphery": "^1.1.0-beta.0",
+		"@uniswap/v3-core": "^1.0.1",
+		"@uniswap/v3-periphery": "^1.4.1",
+		"uniswap-quoter": "git+https://github.com/sandrones/V3-Quoter.git"
+	}
+}

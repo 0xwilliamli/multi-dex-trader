@@ -1,0 +1,33 @@
+{
+  "renBTC": {
+    "address": "0xf45284F48Fe30F496f749A7165574bc4Fa667c62"
+  },
+  "wBTC": {
+    "address": "0x5Af2f96cB3eA9548D537947E915E1f4fEE7504aC"
+  },
+  "wETH": {
+    "address": "0x86AbF7Bab206b3eDe3ad09EDF98711830C6dDec4"
+  },
+  "FRAX": {
+    "address": "0x381b1BCa10431F0F9f8Ca4967F9b2D62ABB85A01"
+  },
+  "CurveSwap(renBTC-WBTC)": {
+    "address": "0x921Dc2B7429460eAdCE740d78f0EE4eB467E6A52"
+  },
+  "CurveTrader": {
+    "address": "0x3741FcAfD1D00cfA2E6c87fFA9e3122a44C184A0",
+    "proxyAdmin": "0x1483e3CB85A639B429942bE8E7330Ecf1F6fB507"
+  },
+  "UniswapV2Trader": {
+    "address": "0x92370136487D269967710f8963E5313D6a275882",
+    "proxyAdmin": "0x1483e3CB85A639B429942bE8E7330Ecf1F6fB507"
+  },
+  "UniswapV3Trader": {
+    "address": "0xE962EB5a713DcDD5fF61f3Ba9d709EF0e36ce453",
+    "proxyAdmin": "0x1483e3CB85A639B429942bE8E7330Ecf1F6fB507"
+  },
+  "TradeManager": {
+    "address": "0x379b13fC3F1CF1588B2A57B730c94310C303f90f",
+    "proxyAdmin": "0x1483e3CB85A639B429942bE8E7330Ecf1F6fB507"
+  }
+}

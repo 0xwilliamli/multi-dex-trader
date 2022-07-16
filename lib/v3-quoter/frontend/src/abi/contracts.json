@@ -1,0 +1,118 @@
+{
+  "42": {
+    "kovan": {
+      "name": "kovan",
+      "chainId": "42",
+      "contracts": {
+        "Quoter": {
+          "address": "0xf3900F31e43014414D21B68540C8155130e4679c",
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "_uniV3Factory",
+                  "type": "address"
+                }
+              ],
+              "stateMutability": "nonpayable",
+              "type": "constructor"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "_token0",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "_token1",
+                  "type": "address"
+                }
+              ],
+              "name": "doesPoolExist",
+              "outputs": [
+                {
+                  "internalType": "bool",
+                  "name": "",
+                  "type": "bool"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "_fromToken",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "_toToken",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "_amount",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint24",
+                  "name": "_poolFee",
+                  "type": "uint24"
+                }
+              ],
+              "name": "estimateMaxSwapUniswapV3",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "_fromToken",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "_toToken",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "_amount",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint24",
+                  "name": "_poolFee",
+                  "type": "uint24"
+                }
+              ],
+              "name": "estimateMinSwapUniswapV3",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
